@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="button1" type="id">button1</item>
+    <item name="view1" type="id">view1</item>
+    <item name="view2" type="id">view2</item>
+    <item name="view4" type="id">view4</item>
+    <item name="view3" type="id">view3</item>
+    <item name="view5" type="id">view5</item>
+    <item name="scrollview1" type="id">scrollview1</item>
+    <item name="button2" type="id">button2</item>
+    <item name="button3" type="id">button3</item>
+    <item name="button4" type="id">button4</item>
+    <item name="button5" type="id">button5</item>
+    <item name="button6" type="id">button6</item>
+    <item name="button7" type="id">button7</item>
+</resources>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="250dp" />
+
+    <ScrollView
+        android:id='@id/scrollview1'
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@id/guideline1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            android:id="@+id/c"
+            android:layout_width="5000dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="20dp"
+            android:paddingBottom="70dp">
+
+            <Button
+                android:id='@id/button1'
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Button 1"
+                app:layout_constraintLeft_toLeftOf="parent"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteY="202dp" />
+
+
+            <Button
+                android:id='@id/button2'
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Button 2"
+                app:layout_constraintLeft_toRightOf="button1"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteY="202dp" />
+
+            <Button
+                android:id='@id/button3'
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Button 3"
+                app:layout_constraintLeft_toRightOf="button2"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteY="202dp" />
+
+            <Button
+                android:id='@id/button4'
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Button 4"
+                tools:layout_editor_absoluteY="202dp"
+                tools:ignore="MissingConstraints" />
+
+            <Button
+                android:id='@id/button5'
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Button 5"
+                tools:layout_editor_absoluteY="202dp"
+                tools:ignore="MissingConstraints" />
+
+            <Button
+                android:id='@id/button6'
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Button 6"
+                tools:layout_editor_absoluteY="202dp"
+                tools:ignore="MissingConstraints" />
+
+            <Button
+                android:id='@id/button7'
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Button 7"
+                tools:layout_editor_absoluteY="202dp"
+                tools:ignore="MissingConstraints" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
